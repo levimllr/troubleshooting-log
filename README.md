@@ -54,4 +54,4 @@ LoadError:
 #   /Users/lmiller4/.rvm/gems/ruby-2.6.1/gems/activerecord-6.0.0/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `<top (required)>'
 ```
 
-**To fix the issue, I opened `/Users/lmiller4/.rvm/gems/ruby-2.6.1/gems/activerecord-6.0.0/lib/active_record/connection_adapters/sqlite3_adapter.rb` and changed line 13 to `gem "sqlite3", "< 1.4"`, requiring the adapter to use the activated `sqlite3-1.3.13` gem.
+**To fix the issue, I opened `/Users/lmiller4/.rvm/gems/ruby-2.6.1/gems/activerecord-6.0.0/lib/active_record/connection_adapters/sqlite3_adapter.rb` and changed line 13 to `gem "sqlite3", "< 1.4"`, requiring the adapter to use the activated `sqlite3-1.3.13` gem.**
